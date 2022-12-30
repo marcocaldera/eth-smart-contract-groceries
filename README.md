@@ -1,3 +1,7 @@
+# Bitmap storage
+
+Creating a contract to test a bitmap storage for smart contract.
+
 ### Compile the contract
 
 ```
