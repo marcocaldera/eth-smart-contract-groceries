@@ -10,8 +10,8 @@ async function deploy() {
   return contract;
 }
 
-async function sayHello(groceries) {
+async function createList(groceries) {
   await groceries.createGroceryList([2, 5, 10, 15]);
 }
 
-deploy().then(sayHello);
+deploy().then(createList);
